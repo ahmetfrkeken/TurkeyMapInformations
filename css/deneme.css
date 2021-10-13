@@ -1,0 +1,115 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: serif;
+}
+
+#sidebar {
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	background: #B40000;
+	left: -310px;
+	transition: all 500ms linear;
+	border-radius: 30px;
+	border: 1px solid #cc00cc;
+}
+
+#sidebar.active{
+	left:-100px;
+}
+
+#sidebar ul li {
+	color: white;
+	list-style: none;
+	padding: 15px 15px;
+	border-bottom: 5px solid #DC1919;
+}
+
+#sidebar .tablo-bilgileri {
+	position: absolute;
+	top: 350px;
+	left:125px;
+}
+
+#sidebar .toggle-btn{
+	position: absolute;
+	left:330px;
+	top:20px;
+}
+
+#sidebar .toggle-btn span {
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #B43700;
+	margin: 3px 0px;
+}
+
+#ders-adi {
+	font-family: Sans-serif;
+	color: #E95420;
+}
+
+#hazirlayan {
+	font-family: Sans-serif;
+	color: #E95420;
+}
+
+.bolge_adlari {
+	position: absolute;
+	z-index: 2;
+}
+
+.bolge_adlari div {
+	font-family: 'Open Sans';
+	display: inline-block;
+	background: #752801;
+	color: #fff;
+	padding: 8px 16px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 20px;
+	align-content:center;
+}
+
+.svg-turkiye-haritasi{
+	width: 1140px;
+	height:596px;
+	position:relative;
+	top:200px;
+	margin:auto;
+}
+
+.bolgelerHaritalari {
+	width: 1140px;
+	height: 596px;
+	position: relative;
+	top: 200px;
+	margin: auto;
+}
+
+
+.bolgeler path {
+	cursor: pointer;
+}
+
+.bolgeler:hover path {
+	fill: #fff;
+}
+
+.bolge-isimleri {
+	position: absolute;
+	z-index: 2;
+}
+
+.bolge-isimleri div {
+	font-family: 'Open Sans';
+	display: inline-block;
+	background: #1094F6;
+	color: #fff;
+	padding: 8px 16px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
